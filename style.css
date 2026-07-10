@@ -1,5 +1,156 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
-* {
-    font-family: "JetBrains Mono", monospace;
+/* ---------------------------------------------------------
+   JetBrains Mono Nerd Font - Monochromatic Dense Theme
+   --------------------------------------------------------- */
+
+/*:
+root {
+  --bg: #000000;
+  --text: #a8a8a8;
+  --text-bright: #ffffff;
+  --border: #262626;
+  --code-bg: #0c0c0c;
+  --font-mono: 'JetBrainsMono Nerd Font', 'JetBrains Mono', monospace;
 }
+*/
+
+:root {
+    --bg: #000000;
+    --text: #a8a8a8;
+    --text-bright: #ffffff;
+    --link-download: #988383f9;
+    --link_topbar: #4f9ad0;
+}
+/* Global & Reset */
+* {
+  box-sizing: border-box;
+  font-family: "JetBrains Mono", monospace;
+
+}
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-size: 15px;
+}
+
+h1, h2, h3, h4 {
+    color: var(--text-bright)
+}
+
+a:hover {
+    background-color: var(--text-bright);
+    color: var(--bg)
+}
+a {
+    color: var(--link_topbar)
+}
+a[download] {
+    color: var(--link-download)
+}
+
+/*
+body {
+  font-family: var(--font-mono);
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.4;
+  font-size: 14px;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+
+h1, h2, h3, h4 {
+  color: var(--text-bright);
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h1 { font-size: 1.5rem; }
+h2 { font-size: 1.15rem; }
+h3 { font-size: 1rem; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+a {
+  color: var(--text-bright);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--text-bright);
+}
+
+a:hover {
+  background-color: var(--text-bright);
+  color: var(--bg);
+  border-bottom-style: solid;
+}
+
+::selection {
+  background-color: var(--text-bright);
+  color: var(--bg);
+}
+
+hr {
+  border: 0;
+  border-top: 1px dashed var(--border);
+  margin: 1.5rem 0;
+}
+
+ul {
+  list-style: none; 
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+}
+
+ul li {
+  position: relative;
+  padding-left: 1.25rem;
+  margin-bottom: 0.3rem;
+}
+
+ul li::before {
+  content: "->";
+  position: absolute;
+  left: 0;
+  color: var(--border);
+}
+
+code, pre {
+  font-family: var(--font-mono);
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+}
+
+code {
+  padding: 0.1rem 0.3rem;
+  font-size: 0.9em;
+  color: var(--text-bright);
+}
+
+pre {
+  display: block;
+  padding: 0.8rem;
+  margin: 1rem 0;
+  overflow-x: auto;
+  white-space: pre;
+}
+
+pre code {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  font-size: 1em;
+  color: var(--text);
+}
+
+time, .meta {
+  color: #666666;
+  font-size: 0.85rem;
+}
+*/
