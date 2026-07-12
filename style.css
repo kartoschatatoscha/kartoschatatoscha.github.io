@@ -17,10 +17,10 @@ root {
 
 :root {
     --bg: #000000;
-    --text: #a8a8a8;
+    --text: #ffffff;
     --text-bright: #ffffff;
-    --link-download: #988383f9;
-    --link_topbar: #4f9ad0;
+    --menu: #f89335;
+    --link: #6f9cf5;
 }
 /* Global & Reset */
 * {
@@ -43,10 +43,10 @@ a:hover {
     color: var(--bg)
 }
 a {
-    color: var(--link_topbar)
+    color: var(--link)
 }
-a[download] {
-    color: var(--link-download)
+a[menu]{
+  color: var(--menu)
 }
 
 /*
